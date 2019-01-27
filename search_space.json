@@ -1,0 +1,4 @@
+{ "lambda_student":{"_type":"quniform", "_value":[0.05, 1.0, 0.05]},
+  "T_student":{"_type":"choice", "_value":[1, 2, 5, 10, 15, 20]},
+  "seed":{"_type":"choice", "_value":[20, 31, 55]}
+}
