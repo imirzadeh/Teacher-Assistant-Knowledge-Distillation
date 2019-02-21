@@ -1,7 +1,7 @@
 # Teacher-Assistant-Knowledge-Distilliation
 
 Another version of code documentation is inside readme.pdf file.    
-the paper: https://arxiv.org/pdf/1902.03393.pdf
+
 
 ----------------
 ----------------
@@ -99,3 +99,15 @@ You should change the command part of the config file like this:
 
 3. Repeat like step two, distillate knowledge from TA to student (Teacher is resnet14, student is resnet8). Also, we assume the best weights from step two was resnet14_XXXX_best.pth.tar     
 `command: python3 train.py --epochs 160 --teacher resnet14 --teacher-checkpoint ./resnet14_XXXX_best.pth.tar --student resnet8 --cuda 1 --dataset cifar10`
+
+
+### Reference
+arxiv link: https://arxiv.org/pdf/1902.03393.pdf     
+If you found this library useful in your research, please consider citing:  
+```
+@inproceedings{Mirzadeh2019ImprovedKD,
+  title={Improved Knowledge Distillation via Teacher Assistant: Bridging the Gap Between Student and Teacher},
+  author={Seyed Iman Mirzadeh and Mehrdad Farajtabar and Ang Li and Hassan Ghasemzadeh},
+  year={2019}
+}
+```
