@@ -105,9 +105,10 @@ You should change the command part of the config file like this:
 arxiv link: https://arxiv.org/pdf/1902.03393.pdf     
 If you found this library useful in your research, please consider citing:  
 ```
-@inproceedings{Mirzadeh2019ImprovedKD,
+@article{mirzadeh2019improved,
   title={Improved Knowledge Distillation via Teacher Assistant: Bridging the Gap Between Student and Teacher},
-  author={Seyed Iman Mirzadeh and Mehrdad Farajtabar and Ang Li and Hassan Ghasemzadeh},
+  author={Mirzadeh, Seyed-Iman and Farajtabar, Mehrdad and Li, Ang and Ghasemzadeh, Hassan},
+  journal={arXiv preprint arXiv:1902.03393},
   year={2019}
 }
 ```
