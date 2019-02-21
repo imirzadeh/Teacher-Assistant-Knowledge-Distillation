@@ -1,6 +1,7 @@
 # Teacher-Assistant-Knowledge-Distilliation
 
-Another version of code documentation is inside readme.pdf file.   
+Another version of code documentation is inside readme.pdf file.    
+the paper: https://arxiv.org/pdf/1902.03393.pdf
 
 ----------------
 ----------------
